@@ -1,0 +1,24 @@
+*{
+  color: white ;
+  background-color: #313552 ;
+}
+::placeholder{
+  color:white;
+}
+.form{
+  border:none;
+  border-bottom:2px solid ;
+  margin: 10px;
+}
+#submit{
+  margin: 10px;
+  border:none;
+  padding: 5px;
+  background-color: white ;
+  color : black ;
+}
+#link{
+  margin-left: 10px;
+  font-size:13px;
+  color:yellow;
+}
