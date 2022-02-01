@@ -11,9 +11,33 @@ body{
 }
 .login-box{
   width: 200px;
+  height: 200px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: black;
+  color: white;
+}
+.login-box h1{
+  margin: 0px;
+  float: left;
+  font-size: 40px;
+}
+.inp{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  color: white;
+  border: none;
+  border-bottom: 2px solid;
+  background: none;
+}
+.btn{
+  border: 2px solid white;
+  color: white;
+  width: 80px;
+  background: none;
+  padding:  5px;
+  font-size: 15px;
+  cursor: pointer;
 }
