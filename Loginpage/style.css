@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-
+html{
+  font-family: 'Poppins', sans-serif;
+}
 .Full-body {
-  border-top: 10px solid transparent;
+  border-top: 30px solid transparent;
   border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
   border-image-slice: 1;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
@@ -10,7 +12,6 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-family: 'Poppins', sans-serif;
   background-image: linear-gradient(to right top,
       #52e5e7,
       #00bded,
