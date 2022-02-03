@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-html{
+
+html {
   font-family: 'Poppins', sans-serif;
 }
+
 .Full-body {
   border-top: 30px solid transparent;
   border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
@@ -65,13 +67,16 @@ body {
   cursor: pointer;
   transition-duration: 300ms;
 }
+
 .btn:hover {
   background-color: black;
   color: white;
 }
+
 input:focus::-moz-placeholder {
-    color: black;
+  color: black;
 }
-.login-box h1:hover{
+
+.login-box h1:hover {
   color: black;
 }
