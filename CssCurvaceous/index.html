@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.2.2/dist/kute.min.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            background: #212121;
+        }
+
+        section {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 400px;
+            padding: 100px 20vw;
+        }
+
+        .wave {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+        }
+
+        .wave svg {
+            position: relative;
+            display: block;
+            width: calc(106% + 1.3px);
+            height: 124px;
+        }
+
+        .wave .shape-fill {
+            fill: #77ACF1;
+        }
+
+        .spacer {
+            aspect-ratio: 960/300;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .layer1 {
+            background-image: url('./sp2.svg');
+        }
+
+        .layer2 {
+            background-image: url('./sp1.svg');
+        }
+
+        .layer3 {
+            background-image: url('./sp3.svg');
+        }
+
+        .layer4 {
+            background-image: url('./sp4.svg');
+        }
+
+        .layer5 {
+            background-image: url('./sp5.svg');
+        }
+
+        .layer6 {
+            background-image: url('./sp6.svg');
+        }
+
+        .cyan {
+            background: #77ACF1;
+        }
+
+        .pink {
+            background: #FF5DA2;
+        }
+
+        .pirple {
+            background: #9C19E0;
+        }
+
+        .dark {
+            background: #000D6B;
+        }
+
+        .flip {
+            transform: rotate(180deg);
+        }
+
+        .blob-motion {
+            position: absolute;
+            transform: translateY(-20%);
+        }
+    </style>
+
+
+
+
+
+</head>
+
+<body>
+    <section class="cyan">
+        <h1>Nice Curves</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus doloremque ullam suscipit quis adipisci
+            fuga magnam culpa eaque quae consectetur, praesentium aut architecto soluta itaque odio sed a cupiditate
+            voluptates.</p>
+        <div class="wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+    <section class="pink">
+        <h1>Nice Curves</h1>
+        <p>Facilis, saepe! Non exercitationem praesentium dolorum, ad porro laboriosam quas amet voluptatem illo
+            assumenda, distinctio error rerum totam quaerat voluptatum ut beatae maiores neque tenetur, sequi accusamus
+            deleniti nam id?</p>
+        <div class="wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <div class="spacer layer2"></div>
+
+    <section class="pirple">
+        <h1>Nice Curves</h1>
+        <p>Magni, repudiandae natus dolorum fuga aperiam quasi eligendi incidunt earum, amet beatae aut. Quia eaque
+            ipsam, ex adipisci cumque ad. Architecto aspernatur illo earum cupiditate impedit id placeat obcaecati
+            dolor?</p>
+    </section>
+
+    <div class="spacer layer1"></div>
+
+    <section class="dark">
+        <h1>Nice Curves</h1>
+        <p>Repellat deserunt quasi delectus, hic velit maiores perferendis dignissimos cupiditate illum necessitatibus
+            tempora quas facere illo voluptatum eos, doloremque excepturi ex ratione. Quisquam qui similique provident
+            neque aliquid? Similique, minus.</p>
+    </section>
+
+    <div class="spacer layer3"></div>
+
+    <section class="cyan">
+        <h1>Nice Curves</h1>
+        <p>Repellendus velit labore sint ullam rerum officia, voluptatem reiciendis. Facere eveniet dolores ex?
+            Inventore harum, dicta, aut neque reprehenderit totam minima natus, eligendi odio facere quos cupiditate
+            accusamus non eum.</p>
+    </section>
+
+    <div class="spacer layer4 flip"></div>
+
+    <section class="pink">
+        <h1>Nice Curves</h1>
+        <p>Recusandae quia repudiandae fugit ab nihil vero totam cumque a explicabo sapiente possimus voluptatum veniam
+            deleniti quisquam assumenda delectus maxime velit iure iusto facilis inventore, veritatis illum incidunt
+            dolore. Quod.</p>
+    </section>
+    <div class="spacer layer5"></div>
+    <section class="pirple">
+        <h1>Nice Curves</h1>
+        <p>Amet laborum qui at architecto excepturi. Iusto eveniet ratione non iste eaque cupiditate vero, sapiente
+            provident quae ullam quasi eius omnis rerum quisquam. Quibusdam reiciendis, explicabo reprehenderit
+            provident neque accusamus!</p>
+    </section>
+
+    <div class="spacer layer6 flip"></div>
+    <section class="dark">
+        <h1>Nice Curves</h1>
+        <p>Nam neque, voluptatibus deserunt, odit veritatis itaque sunt cumque quisquam natus voluptates, nemo fuga ad
+            dolore. Optio laudantium tempora omnis commodi voluptatem reiciendis, asperiores corporis voluptatibus
+            temporibus reprehenderit, maiores impedit.</p>
+        <svg id="visual" viewBox="0 0 900 300" width="900" height="300" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+            <g transform="translate(441.46037703846906 146.4547920310556)">
+                <path id="blob1"
+                    d="M56.4 -61.3C80.7 -46.9 113.2 -36.3 120.1 -18.1C126.9 0 108.1 25.8 87 38.9C65.9 52 42.6 52.4 19.1 67.3C-4.3 82.2 -27.8 111.6 -51.3 114.5C-74.9 117.5 -98.5 94 -103.4 68.1C-108.3 42.3 -94.5 14 -89.4 -15.9C-84.3 -45.8 -87.8 -77.3 -74.3 -93.6C-60.9 -109.9 -30.4 -110.9 -7.2 -102.4C16.1 -93.8 32.1 -75.6 56.4 -61.3"
+                    fill="#6051cd"></path>
+            </g>
+            <g transform="translate(445.7945354472489 139.34666069609625)">
+                <path id="blob2"
+                    d="M72 -94.3C79.7 -79.3 63 -43.7 52.7 -21.3C42.4 1.2 38.5 10.6 38.7 33.6C38.8 56.6 43 93.1 29.5 111.1C16 129.1 -15.3 128.4 -36.6 114.6C-57.9 100.7 -69.2 73.6 -64.5 51.8C-59.9 29.9 -39.2 13.3 -33.6 -3.7C-28 -20.8 -37.4 -38.4 -34.4 -54.2C-31.3 -69.9 -15.6 -84 8.2 -93.8C32.1 -103.6 64.3 -109.3 72 -94.3"
+                    fill="#6051cd"></path>
+            </g>
+        </svg>
+        <script>
+            const tween = KUTE.formTO(
+                '#blob1',
+                { path: '#blob1'},
+                { path: '#blob2'},
+                { repeat: 999, duration: 3000, yoyo: true}
+            )
+            tween.start()
+        </script>
+    </section>
+
+    <div class="spacer layer6"></div>
+    <section class="pirple">
+        <h1>Nice Curves</h1>
+        <p>Amet laborum qui at architecto excepturi. Iusto eveniet ratione non iste eaque cupiditate vero, sapiente
+            provident quae ullam quasi eius omnis rerum quisquam. Quibusdam reiciendis, explicabo reprehenderit
+            provident
+            neque accusamus!</p>
+    </section>
+</body>
+
+</html>
