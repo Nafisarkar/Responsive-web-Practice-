@@ -20,7 +20,11 @@ body{
     margin: 2em;
     padding: 5px;
     border: 1px solid #83a598;
-    box-shadow: #83a598 0px 0px 10px;
+    
+}
+#text_form:hover{
+    outline: none;
+    box-shadow: #83a598 0px 0px 20px;
 }
 label{
     margin-right: 1em;
