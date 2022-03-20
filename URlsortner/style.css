@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: aliceblue;
+}
+body{
+    background-color: rgb(14, 6, 19);
+}
+.mainbox{
+    margin: 2em;
+    text-align: center;
+    
+}
+input{
+    color: #000;
+}

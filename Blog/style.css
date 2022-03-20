@@ -9,7 +9,6 @@
 }
 
 .mlist {
-  font-style: italic;
   list-style-type: none;
   margin: 0;
   margin-left: 10px;
@@ -20,7 +19,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  box-shadow: 0 0 16px rgb(0, 0, 0);
+  box-shadow: 0 0 16px rgb(80, 69, 141);
   /* border-top: solid 2px rgb(1, 187, 41); */
   border-radius: 9px;
 }
@@ -39,7 +38,7 @@
 }
 .box {
   height: 2100px;
-  border: solid 2px rgb(16, 167, 255);
+  border: solid 2px rgb(69, 48, 185);
   margin-left: 6em;
   margin-right: 6em;
   margin-top: 4em;
